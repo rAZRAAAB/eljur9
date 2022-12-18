@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">      
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">
+     <script src="script.js"></script>
+     <title>МБОУ Школа №9 -- Электронный журнал</title>
+    </head>
+
+    <body>
+      <img src="back.png" id="school">
+      <div id="log-code">
+        <h1 id="System"> <center>Вход в систему</center> </h1>
+
+        <!--Логин и его ввод-->
+        <p id="textForInput">Логин</p>
+        <input type="text" id="textInput"  onchange="localStorage.setItem('login', this.value)">
+
+        <!--Пароль и его ввод-->
+        <p id="textForInputP">Пароль</p>
+        <input type="text" id="textInputP" onchange="localStorage.setItem('code', this.value)">
+
+       <a href="https://feo9.eljur.ru/authorize"><button id="welcome">Войти</button></a>
+        
+        <a href="" id="a1" class="a3">Регистрация</a>
+        <a href="" id="a2" class="a3">Забыли Пароль?</a>
+
+      </div>
+      
+    </body> 
+</html>

@@ -1,0 +1,94 @@
+#System{
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+#log-code{
+    border: 1px solid #ededed;
+    border-radius: 2%;
+    width: 400px;
+    height: 384px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #fff;
+    box-shadow: 3px 3px 3px #c8c8c8;
+}
+#textInput{
+    margin-left: 35px;
+    width: 325px;
+    height: 35px;
+    border: 1px solid #aeaeae;
+    border-radius: 7px;
+}
+#textForInput{
+    margin-left: 169px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+}
+#textInputP{
+    margin-left: 35px;
+    width: 325px;
+    height: 35px;
+    border: 1px solid #aeaeae;
+    border-radius: 7px;
+}
+#textForInputP{
+    margin-left: 169px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+}
+#textInputP:hover{
+    margin-left: 35px;
+    width: 325px;
+    height: 35px;
+    border: 1px solid #818181;
+    border-radius: 7px;
+}
+#textInput:hover{
+    margin-left: 35px;
+    width: 325px;
+    height: 35px;
+    border: 1px solid #818181;
+    border-radius: 7px;
+}
+body{
+    background-color: #f2f2f2;
+}
+#school{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#welcome{
+    width: 325px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #d03e3e;
+    color: #ffffff;
+    border: 0px solid #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#welcome:hover{
+    width: 325px;
+    height: 40px;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-color: #cf5555;
+    color: #ffffff;
+    border: 0px solid #ffff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+a{
+    font-family: 'Roboto', sans-serif;
+    color: #0d81fc;
+    margin-top:95px;
+}
+.a3{
+    margin-left: 60px;
+    font-family: 'Heebo', sans-serif;
+}
